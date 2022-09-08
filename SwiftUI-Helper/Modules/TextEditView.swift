@@ -42,8 +42,6 @@ private extension TextEditView {
     }
 }
 
-struct TextEditView_Previews: PreviewProvider {
-    static var previews: some View {
-        TextEditView()
-    }
+#Preview {
+    TextEditView()
 }

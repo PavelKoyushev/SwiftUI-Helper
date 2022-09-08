@@ -24,12 +24,8 @@ struct MainButton: View {
     }
 }
 
-#if DEBUG
-struct MainButton_Previews: PreviewProvider {
-    static var previews: some View {
-        MainButton(isDisabled: .constant(false),
-                  text: "Start",
-                  action: {})
-    }
+#Preview {
+    MainButton(isDisabled: .constant(false),
+              text: "Start",
+              action: {})
 }
-#endif

@@ -12,7 +12,7 @@ struct MainView: View {
     private var screen = UIScreen.main.bounds
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             content
                 .navigationTitle("MainView")
                 .navigationBarTitleDisplayMode(.automatic)
@@ -62,9 +62,6 @@ private extension MainView {
         print("button pressed")
     }
 }
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainView()
-    }
+#Preview {
+    MainView()
 }

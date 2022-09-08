@@ -60,8 +60,6 @@ private extension TextEditorView {
     
 }
 
-struct TextEditorView_Previews: PreviewProvider {
-    static var previews: some View {
-        TextEditorView(comment: .constant(""))
-    }
+#Preview {
+    TextEditorView(comment: .constant(""))
 }
