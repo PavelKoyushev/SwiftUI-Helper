@@ -9,11 +9,13 @@ import SwiftUI
 
 struct MainView: View {
     
+    private var screen = UIScreen.main.bounds
+    
     var body: some View {
         NavigationView {
             content
                 .navigationTitle("MainView")
-                .navigationBarTitleDisplayMode(.inline)
+                .navigationBarTitleDisplayMode(.automatic)
         }
     }
 }
@@ -21,18 +23,43 @@ struct MainView: View {
 private extension MainView {
     
     var content: some View {
-        VStack(alignment: .center, spacing: 0) {
-            NavigationLink(destination: TextEditView()) {
-                Label {
-                    Text("TextEditView")
-                        .font(.system(size: 20))
-                        .foregroundColor(.blue)
-                } icon: { }
+        ScrollView {
+            VStack(alignment: .center, spacing: 0) {
+                
+                navLink
+                    .padding(.vertical, 30)
+                
+                myButton
+                
+                Spacer()
             }
-            Spacer()
         }
-        .frame(minWidth: 0, maxWidth: .infinity)
-        .frame(minHeight: 0, maxHeight: .infinity)
+        .background(Color.white)
+    }
+    
+    var navLink: some View {
+        NavigationLink(destination: TextEditView()) {
+            Label {
+                Text("TextEditView")
+                    .font(.system(size: 20))
+                    .foregroundColor(.blue)
+            } icon: { }
+        }
+        .frame(width: screen.width)
+    }
+    
+    var myButton: some View {
+        MainButton(isDisabled: .constant(false),
+                   text: "My Button",
+                   action: action)
+        .frame(width: 200)
+    }
+}
+
+private extension MainView {
+    
+    func action() {
+        print("button pressed")
     }
 }
 
