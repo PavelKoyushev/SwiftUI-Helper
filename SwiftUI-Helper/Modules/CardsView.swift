@@ -8,8 +8,48 @@
 import SwiftUI
 
 struct CardsView: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        content
+            .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+private extension CardsView {
+    
+    var content: some View {
+        ScrollView {
+            LazyVStack {
+                ForEach(1..<20) { _ in
+                    Color.purple
+                        .frame(height: 120)
+                        .cornerRadius(20)
+                }
+            }
+        }
+        .scrollIndicators(.hidden)
+        .safeAreaInset(edge: .top) {
+            ScrollView(.horizontal) {
+                LazyHStack {
+                    ForEach(1..<10) { _ in
+                        Color.blue
+                            .frame(height: 80)
+                            .cornerRadius(20)
+                            .containerRelativeFrame(.horizontal,
+                                                    count: 5,
+                                                    span: 2,
+                                                    spacing: 8)
+                    }
+                }
+                .scrollTargetLayout()
+            }
+            .scrollTargetBehavior(.viewAligned)
+            .scrollIndicators(.hidden)
+            .padding(.vertical, 8)
+            .fixedSize(horizontal: false, vertical: true)
+            .background(.thinMaterial)
+        }
+        .safeAreaPadding(.horizontal)
     }
 }
 

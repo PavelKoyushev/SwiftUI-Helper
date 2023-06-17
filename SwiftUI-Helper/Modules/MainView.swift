@@ -16,6 +16,7 @@ struct MainView: View {
             content
                 .navigationTitle("MainView")
                 .navigationBarTitleDisplayMode(.automatic)
+                .background(Color.white)
         }
     }
 }
@@ -23,24 +24,35 @@ struct MainView: View {
 private extension MainView {
     
     var content: some View {
-        ScrollView {
-            VStack(alignment: .center, spacing: 0) {
-                
-                navLink
-                    .padding(.vertical, 30)
-                
-                myButton
-                
-                Spacer()
-            }
+        VStack(alignment: .center, spacing: 40) {
+            
+            Spacer()
+            
+            navLink
+            
+            navLink2
+            
+            myButton
+            
+            Spacer()
         }
-        .background(Color.white)
     }
     
     var navLink: some View {
         NavigationLink(destination: TextEditView()) {
             Label {
                 Text("TextEditView")
+                    .font(.system(size: 20))
+                    .foregroundColor(.blue)
+            } icon: { }
+        }
+        .frame(width: screen.width)
+    }
+    
+    var navLink2: some View {
+        NavigationLink(destination: CardsView()) {
+            Label {
+                Text("ScrollView")
                     .font(.system(size: 20))
                     .foregroundColor(.blue)
             } icon: { }
