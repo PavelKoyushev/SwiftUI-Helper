@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import HelperSwiftUI
 
 struct CardsView: View {
     
@@ -17,39 +18,52 @@ struct CardsView: View {
 
 private extension CardsView {
     
+    @ViewBuilder
     var content: some View {
-        ScrollView {
-            LazyVStack {
-                ForEach(1..<20) { _ in
-                    Color.purple
-                        .frame(height: 120)
-                        .cornerRadius(20)
-                }
-            }
-        }
-        .scrollIndicators(.hidden)
-        .safeAreaInset(edge: .top) {
-            ScrollView(.horizontal) {
-                LazyHStack {
-                    ForEach(1..<10) { _ in
-                        Color.blue
-                            .frame(height: 80)
+        if #available(iOS 17, *) {
+            ScrollView {
+                LazyVStack {
+                    ForEach(1..<20) { _ in
+                        Color.purple
+                            .frame(height: 120)
                             .cornerRadius(20)
-                            .containerRelativeFrame(.horizontal,
-                                                    count: 5,
-                                                    span: 2,
-                                                    spacing: 8)
                     }
                 }
-                .scrollTargetLayout()
             }
-            .scrollTargetBehavior(.viewAligned)
             .scrollIndicators(.hidden)
-            .padding(.vertical, 8)
-            .fixedSize(horizontal: false, vertical: true)
-            .background(.thinMaterial)
+            .safeAreaInset(edge: .top) {
+                ScrollView(.horizontal) {
+                    LazyHStack {
+                        ForEach(1..<10) { _ in
+                            Color.blue
+                                .frame(height: 80)
+                                .cornerRadius(20)
+                                .containerRelativeFrame(.horizontal,
+                                                        count: 5,
+                                                        span: 2,
+                                                        spacing: 8)
+                        }
+                    }
+                    .scrollTargetLayout()
+                }
+                .scrollTargetBehavior(.viewAligned)
+                .scrollIndicators(.hidden)
+                .padding(.vertical, 8)
+                .fixedSize(horizontal: false, vertical: true)
+                .background(.thinMaterial)
+            }
+            .safeAreaPadding(.horizontal)
+        } else {
+            ScrollView {
+                LazyVStack {
+                    ForEach(1..<20) { _ in
+                        Color.purple
+                            .frame(height: 120)
+                            .cornerRadius(20)
+                    }
+                }
+            }
         }
-        .safeAreaPadding(.horizontal)
     }
 }
 

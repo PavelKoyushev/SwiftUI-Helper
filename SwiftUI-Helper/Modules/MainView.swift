@@ -11,12 +11,20 @@ struct MainView: View {
     
     private var screen = UIScreen.main.bounds
     
+    @State var path = [Step]()
+    
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             content
                 .navigationTitle("MainView")
                 .navigationBarTitleDisplayMode(.automatic)
                 .background(Color.white)
+                .navigationDestination(for: Step.self) { step in
+                    switch step {
+                    case .picker:
+                        PickerScreenView()
+                    }
+                }
         }
     }
 }
@@ -27,6 +35,8 @@ private extension MainView {
         VStack(alignment: .center, spacing: 40) {
             
             Spacer()
+            
+            stepbutton
             
             navLink
             
@@ -65,6 +75,12 @@ private extension MainView {
                    text: "My Button",
                    action: action)
         .frame(width: 200)
+    }
+    
+    var stepbutton: some View {
+        Button("Picker") {
+            path.append(.picker)
+        }
     }
 }
 

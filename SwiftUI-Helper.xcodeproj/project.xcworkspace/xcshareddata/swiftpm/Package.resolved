@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "helperforswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/PavelKoyushev/HelperForSwiftUI",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a5932f9cb5f755260751ca2e04db08b717fda8a3"
+      }
+    }
+  ],
+  "version" : 2
+}

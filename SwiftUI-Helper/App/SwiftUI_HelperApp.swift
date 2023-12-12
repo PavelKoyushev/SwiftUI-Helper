@@ -12,6 +12,7 @@ struct SwiftUI_HelperApp: App {
     var body: some Scene {
         WindowGroup {
             MainView()
+                .preferredColorScheme(.light)
         }
     }
 }
