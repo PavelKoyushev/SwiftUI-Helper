@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E96516B028CA577300E28180 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96516AF28CA577300E28180 /* MainButton.swift */; };
-		E96516B228CA57AA00E28180 /* AppButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96516B128CA57AA00E28180 /* AppButtonStyles.swift */; };
 		E96E6D7B2A3E1EE20020A761 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96E6D7A2A3E1EE20020A761 /* CardsView.swift */; };
 		E9A296712778A02D00FE7260 /* SwiftUI_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A296702778A02D00FE7260 /* SwiftUI_HelperApp.swift */; };
 		E9A296732778A02D00FE7260 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A296722778A02D00FE7260 /* MainView.swift */; };
@@ -25,11 +24,21 @@
 		E9F3812B2B2888A8003B7720 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F3812A2B2888A8003B7720 /* Step.swift */; };
 		E9F3812D2B288B82003B7720 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F3812C2B288B82003B7720 /* SecondView.swift */; };
 		E9F381312B28A77D003B7720 /* KPIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F381302B28A77D003B7720 /* KPIndex.swift */; };
+		EB113C8F2CBAC7C000AE6F83 /* TestBaseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB113C8E2CBAC7C000AE6F83 /* TestBaseButtonView.swift */; };
+		EB113C922CBAC7E400AE6F83 /* TestBaseButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB113C912CBAC7E100AE6F83 /* TestBaseButtonViewModel.swift */; };
+		EB25B5762CBA87DC0036669C /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25B5752CBA87DC0036669C /* BaseButton.swift */; };
+		EB428D592CC2ED2400BCCAC4 /* BaseButtonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428D582CC2ED2300BCCAC4 /* BaseButtonState.swift */; };
+		EB428D5D2CC2EDD000BCCAC4 /* MainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428D5C2CC2EDCF00BCCAC4 /* MainButtonStyle.swift */; };
+		EB428D5F2CC2EDF900BCCAC4 /* BaseButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428D5E2CC2EDF800BCCAC4 /* BaseButtonStyle.swift */; };
+		EB428D622CC2EE5200BCCAC4 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428D612CC2EE5100BCCAC4 /* LoaderView.swift */; };
+		EB428D642CC2EFA100BCCAC4 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428D632CC2EFA000BCCAC4 /* ActivityIndicator.swift */; };
+		EB428D662CC2F03600BCCAC4 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428D652CC2F03100BCCAC4 /* View+Ext.swift */; };
+		EB4914C82CB30F8D00AFEE08 /* ColoredBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4914C72CB30F8C00AFEE08 /* ColoredBorder.swift */; };
+		EB4914CA2CB311B700AFEE08 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4914C92CB311B700AFEE08 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E96516AF28CA577300E28180 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
-		E96516B128CA57AA00E28180 /* AppButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtonStyles.swift; sourceTree = "<group>"; };
 		E96E6D7A2A3E1EE20020A761 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
 		E9A2966D2778A02D00FE7260 /* SwiftUI-Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A296702778A02D00FE7260 /* SwiftUI_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_HelperApp.swift; sourceTree = "<group>"; };
@@ -46,6 +55,17 @@
 		E9F3812A2B2888A8003B7720 /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
 		E9F3812C2B288B82003B7720 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		E9F381302B28A77D003B7720 /* KPIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIndex.swift; sourceTree = "<group>"; };
+		EB113C8E2CBAC7C000AE6F83 /* TestBaseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBaseButtonView.swift; sourceTree = "<group>"; };
+		EB113C912CBAC7E100AE6F83 /* TestBaseButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBaseButtonViewModel.swift; sourceTree = "<group>"; };
+		EB25B5752CBA87DC0036669C /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		EB428D582CC2ED2300BCCAC4 /* BaseButtonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonState.swift; sourceTree = "<group>"; };
+		EB428D5C2CC2EDCF00BCCAC4 /* MainButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonStyle.swift; sourceTree = "<group>"; };
+		EB428D5E2CC2EDF800BCCAC4 /* BaseButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonStyle.swift; sourceTree = "<group>"; };
+		EB428D612CC2EE5100BCCAC4 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		EB428D632CC2EFA000BCCAC4 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		EB428D652CC2F03100BCCAC4 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		EB4914C72CB30F8C00AFEE08 /* ColoredBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredBorder.swift; sourceTree = "<group>"; };
+		EB4914C92CB311B700AFEE08 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +83,9 @@
 		E96516B328CA57B200E28180 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				EB25B5752CBA87DC0036669C /* BaseButton.swift */,
 				E96516AF28CA577300E28180 /* MainButton.swift */,
-				E96516B128CA57AA00E28180 /* AppButtonStyles.swift */,
+				EB428D5B2CC2EDBF00BCCAC4 /* Styles */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -80,6 +101,8 @@
 		E96516B528CA57EB00E28180 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				EB7626992CAC72E600A58C33 /* Extensions */,
+				EB4914C62CB30EB700AFEE08 /* ViewModifiers */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -103,12 +126,12 @@
 		E9A2966F2778A02D00FE7260 /* SwiftUI-Helper */ = {
 			isa = PBXGroup;
 			children = (
-				E9F381202B28840A003B7720 /* Models */,
 				E9A2967E2778A07200FE7260 /* App */,
+				EB428D5A2CC2ED6700BCCAC4 /* Resources */,
 				E96516B528CA57EB00E28180 /* Helpers */,
+				E9F381202B28840A003B7720 /* Models */,
 				E9A2967F2778A0DC00FE7260 /* Modules */,
 				E9A296802778A1C700FE7260 /* Components */,
-				E9A296742778A02E00FE7260 /* Assets.xcassets */,
 				E9A296762778A02E00FE7260 /* Preview Content */,
 			);
 			path = "SwiftUI-Helper";
@@ -133,10 +156,12 @@
 		E9A2967F2778A0DC00FE7260 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				EB113C902CBAC7D900AE6F83 /* TestBaseButton */,
 				E9F3811D2B2883C8003B7720 /* PickerScreen */,
 				E9A296722778A02D00FE7260 /* MainView.swift */,
 				E9A296842778A77A00FE7260 /* TextEditView.swift */,
 				E96E6D7A2A3E1EE20020A761 /* CardsView.swift */,
+				EB4914C92CB311B700AFEE08 /* TextView.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -152,6 +177,7 @@
 		E9A296812778A1E200FE7260 /* TextEditor */ = {
 			isa = PBXGroup;
 			children = (
+				EB428D602CC2EE3F00BCCAC4 /* Loaders */,
 				E9F3812E2B289A0E003B7720 /* Controls */,
 				E96516B428CA57BF00E28180 /* TextEditors */,
 				E96516B328CA57B200E28180 /* Buttons */,
@@ -171,6 +197,7 @@
 		E9F381202B28840A003B7720 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EB428D582CC2ED2300BCCAC4 /* BaseButtonState.swift */,
 				E9F381212B288432003B7720 /* Segment.swift */,
 				E9F3812A2B2888A8003B7720 /* Step.swift */,
 				E9F381302B28A77D003B7720 /* KPIndex.swift */,
@@ -194,6 +221,57 @@
 				E9F3812C2B288B82003B7720 /* SecondView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EB113C902CBAC7D900AE6F83 /* TestBaseButton */ = {
+			isa = PBXGroup;
+			children = (
+				EB113C8E2CBAC7C000AE6F83 /* TestBaseButtonView.swift */,
+				EB113C912CBAC7E100AE6F83 /* TestBaseButtonViewModel.swift */,
+			);
+			path = TestBaseButton;
+			sourceTree = "<group>";
+		};
+		EB428D5A2CC2ED6700BCCAC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9A296742778A02E00FE7260 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EB428D5B2CC2EDBF00BCCAC4 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				EB428D5C2CC2EDCF00BCCAC4 /* MainButtonStyle.swift */,
+				EB428D5E2CC2EDF800BCCAC4 /* BaseButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		EB428D602CC2EE3F00BCCAC4 /* Loaders */ = {
+			isa = PBXGroup;
+			children = (
+				EB428D632CC2EFA000BCCAC4 /* ActivityIndicator.swift */,
+				EB428D612CC2EE5100BCCAC4 /* LoaderView.swift */,
+			);
+			path = Loaders;
+			sourceTree = "<group>";
+		};
+		EB4914C62CB30EB700AFEE08 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				EB4914C72CB30F8C00AFEE08 /* ColoredBorder.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		EB7626992CAC72E600A58C33 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EB428D652CC2F03100BCCAC4 /* View+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,17 +354,27 @@
 				E96E6D7B2A3E1EE20020A761 /* CardsView.swift in Sources */,
 				E9F381312B28A77D003B7720 /* KPIndex.swift in Sources */,
 				E9F381262B288678003B7720 /* FirstView.swift in Sources */,
+				EB428D642CC2EFA100BCCAC4 /* ActivityIndicator.swift in Sources */,
+				EB25B5762CBA87DC0036669C /* BaseButton.swift in Sources */,
+				EB428D622CC2EE5200BCCAC4 /* LoaderView.swift in Sources */,
+				EB428D662CC2F03600BCCAC4 /* View+Ext.swift in Sources */,
+				EB428D592CC2ED2400BCCAC4 /* BaseButtonState.swift in Sources */,
 				E9F381222B288432003B7720 /* Segment.swift in Sources */,
 				E9A296732778A02D00FE7260 /* MainView.swift in Sources */,
 				E9F3811C2B28839D003B7720 /* PickerScreenView.swift in Sources */,
 				E9A296712778A02D00FE7260 /* SwiftUI_HelperApp.swift in Sources */,
 				E9A296832778A22C00FE7260 /* TextEditorView.swift in Sources */,
-				E96516B228CA57AA00E28180 /* AppButtonStyles.swift in Sources */,
+				EB113C922CBAC7E400AE6F83 /* TestBaseButtonViewModel.swift in Sources */,
 				E9F381242B288552003B7720 /* PickerContent.swift in Sources */,
+				EB428D5D2CC2EDD000BCCAC4 /* MainButtonStyle.swift in Sources */,
+				EB428D5F2CC2EDF900BCCAC4 /* BaseButtonStyle.swift in Sources */,
+				EB4914C82CB30F8D00AFEE08 /* ColoredBorder.swift in Sources */,
 				E9A296852778A77A00FE7260 /* TextEditView.swift in Sources */,
 				E96516B028CA577300E28180 /* MainButton.swift in Sources */,
+				EB4914CA2CB311B700AFEE08 /* TextView.swift in Sources */,
 				E9F3812B2B2888A8003B7720 /* Step.swift in Sources */,
 				E9F3811F2B2883DB003B7720 /* SegmentControl.swift in Sources */,
+				EB113C8F2CBAC7C000AE6F83 /* TestBaseButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,8 +1,8 @@
 //
-//  AppButtonStyles.swift
+//  MainButtonStyle.swift
 //  SwiftUI-Helper
 //
-//  Created by Pavel Koyushev on 08.09.2022.
+//  Created by Pavel Koyushev on 18.10.2024.
 //
 
 import SwiftUI
