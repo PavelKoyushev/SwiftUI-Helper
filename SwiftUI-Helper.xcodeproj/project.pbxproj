@@ -24,6 +24,10 @@
 		E9F3812B2B2888A8003B7720 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F3812A2B2888A8003B7720 /* Step.swift */; };
 		E9F3812D2B288B82003B7720 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F3812C2B288B82003B7720 /* SecondView.swift */; };
 		E9F381312B28A77D003B7720 /* KPIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F381302B28A77D003B7720 /* KPIndex.swift */; };
+		EB04500E2CC68A2800B89C31 /* PaginationScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04500D2CC68A2700B89C31 /* PaginationScrollView.swift */; };
+		EB0450102CC68A9300B89C31 /* ErrorPaginationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04500F2CC68A9200B89C31 /* ErrorPaginationView.swift */; };
+		EB0450132CC68BE800B89C31 /* TestScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0450122CC68BE000B89C31 /* TestScrollViewModel.swift */; };
+		EB0450152CC68C0900B89C31 /* TestScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0450142CC68C0900B89C31 /* TestScrollView.swift */; };
 		EB113C8F2CBAC7C000AE6F83 /* TestBaseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB113C8E2CBAC7C000AE6F83 /* TestBaseButtonView.swift */; };
 		EB113C922CBAC7E400AE6F83 /* TestBaseButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB113C912CBAC7E100AE6F83 /* TestBaseButtonViewModel.swift */; };
 		EB25B5762CBA87DC0036669C /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25B5752CBA87DC0036669C /* BaseButton.swift */; };
@@ -35,6 +39,7 @@
 		EB428D662CC2F03600BCCAC4 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428D652CC2F03100BCCAC4 /* View+Ext.swift */; };
 		EB4914C82CB30F8D00AFEE08 /* ColoredBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4914C72CB30F8C00AFEE08 /* ColoredBorder.swift */; };
 		EB4914CA2CB311B700AFEE08 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4914C92CB311B700AFEE08 /* TextView.swift */; };
+		EB54391E2CC6D1200029396F /* ScrollPaginationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54391D2CC6D11F0029396F /* ScrollPaginationState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +60,10 @@
 		E9F3812A2B2888A8003B7720 /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
 		E9F3812C2B288B82003B7720 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		E9F381302B28A77D003B7720 /* KPIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIndex.swift; sourceTree = "<group>"; };
+		EB04500D2CC68A2700B89C31 /* PaginationScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationScrollView.swift; sourceTree = "<group>"; };
+		EB04500F2CC68A9200B89C31 /* ErrorPaginationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPaginationView.swift; sourceTree = "<group>"; };
+		EB0450122CC68BE000B89C31 /* TestScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollViewModel.swift; sourceTree = "<group>"; };
+		EB0450142CC68C0900B89C31 /* TestScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollView.swift; sourceTree = "<group>"; };
 		EB113C8E2CBAC7C000AE6F83 /* TestBaseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBaseButtonView.swift; sourceTree = "<group>"; };
 		EB113C912CBAC7E100AE6F83 /* TestBaseButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBaseButtonViewModel.swift; sourceTree = "<group>"; };
 		EB25B5752CBA87DC0036669C /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
@@ -66,6 +75,7 @@
 		EB428D652CC2F03100BCCAC4 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 		EB4914C72CB30F8C00AFEE08 /* ColoredBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredBorder.swift; sourceTree = "<group>"; };
 		EB4914C92CB311B700AFEE08 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		EB54391D2CC6D11F0029396F /* ScrollPaginationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPaginationState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +166,7 @@
 		E9A2967F2778A0DC00FE7260 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				EB0450112CC68BD200B89C31 /* TestScrollView */,
 				EB113C902CBAC7D900AE6F83 /* TestBaseButton */,
 				E9F3811D2B2883C8003B7720 /* PickerScreen */,
 				E9A296722778A02D00FE7260 /* MainView.swift */,
@@ -169,20 +180,14 @@
 		E9A296802778A1C700FE7260 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				E9A296812778A1E200FE7260 /* TextEditor */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		E9A296812778A1E200FE7260 /* TextEditor */ = {
-			isa = PBXGroup;
-			children = (
+				EB54391C2CC6D0AA0029396F /* ErrorViews */,
+				EB04500C2CC68A1B00B89C31 /* ScrollViews */,
 				EB428D602CC2EE3F00BCCAC4 /* Loaders */,
 				E9F3812E2B289A0E003B7720 /* Controls */,
-				E96516B428CA57BF00E28180 /* TextEditors */,
 				E96516B328CA57B200E28180 /* Buttons */,
+				E96516B428CA57BF00E28180 /* TextEditors */,
 			);
-			path = TextEditor;
+			path = Components;
 			sourceTree = "<group>";
 		};
 		E9F3811D2B2883C8003B7720 /* PickerScreen */ = {
@@ -197,6 +202,7 @@
 		E9F381202B28840A003B7720 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EB54391D2CC6D11F0029396F /* ScrollPaginationState.swift */,
 				EB428D582CC2ED2300BCCAC4 /* BaseButtonState.swift */,
 				E9F381212B288432003B7720 /* Segment.swift */,
 				E9F3812A2B2888A8003B7720 /* Step.swift */,
@@ -221,6 +227,23 @@
 				E9F3812C2B288B82003B7720 /* SecondView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EB04500C2CC68A1B00B89C31 /* ScrollViews */ = {
+			isa = PBXGroup;
+			children = (
+				EB04500D2CC68A2700B89C31 /* PaginationScrollView.swift */,
+			);
+			path = ScrollViews;
+			sourceTree = "<group>";
+		};
+		EB0450112CC68BD200B89C31 /* TestScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				EB0450142CC68C0900B89C31 /* TestScrollView.swift */,
+				EB0450122CC68BE000B89C31 /* TestScrollViewModel.swift */,
+			);
+			path = TestScrollView;
 			sourceTree = "<group>";
 		};
 		EB113C902CBAC7D900AE6F83 /* TestBaseButton */ = {
@@ -264,6 +287,14 @@
 				EB4914C72CB30F8C00AFEE08 /* ColoredBorder.swift */,
 			);
 			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		EB54391C2CC6D0AA0029396F /* ErrorViews */ = {
+			isa = PBXGroup;
+			children = (
+				EB04500F2CC68A9200B89C31 /* ErrorPaginationView.swift */,
+			);
+			path = ErrorViews;
 			sourceTree = "<group>";
 		};
 		EB7626992CAC72E600A58C33 /* Extensions */ = {
@@ -357,6 +388,8 @@
 				EB428D642CC2EFA100BCCAC4 /* ActivityIndicator.swift in Sources */,
 				EB25B5762CBA87DC0036669C /* BaseButton.swift in Sources */,
 				EB428D622CC2EE5200BCCAC4 /* LoaderView.swift in Sources */,
+				EB0450132CC68BE800B89C31 /* TestScrollViewModel.swift in Sources */,
+				EB04500E2CC68A2800B89C31 /* PaginationScrollView.swift in Sources */,
 				EB428D662CC2F03600BCCAC4 /* View+Ext.swift in Sources */,
 				EB428D592CC2ED2400BCCAC4 /* BaseButtonState.swift in Sources */,
 				E9F381222B288432003B7720 /* Segment.swift in Sources */,
@@ -364,6 +397,7 @@
 				E9F3811C2B28839D003B7720 /* PickerScreenView.swift in Sources */,
 				E9A296712778A02D00FE7260 /* SwiftUI_HelperApp.swift in Sources */,
 				E9A296832778A22C00FE7260 /* TextEditorView.swift in Sources */,
+				EB0450102CC68A9300B89C31 /* ErrorPaginationView.swift in Sources */,
 				EB113C922CBAC7E400AE6F83 /* TestBaseButtonViewModel.swift in Sources */,
 				E9F381242B288552003B7720 /* PickerContent.swift in Sources */,
 				EB428D5D2CC2EDD000BCCAC4 /* MainButtonStyle.swift in Sources */,
@@ -372,8 +406,10 @@
 				E9A296852778A77A00FE7260 /* TextEditView.swift in Sources */,
 				E96516B028CA577300E28180 /* MainButton.swift in Sources */,
 				EB4914CA2CB311B700AFEE08 /* TextView.swift in Sources */,
+				EB0450152CC68C0900B89C31 /* TestScrollView.swift in Sources */,
 				E9F3812B2B2888A8003B7720 /* Step.swift in Sources */,
 				E9F3811F2B2883DB003B7720 /* SegmentControl.swift in Sources */,
+				EB54391E2CC6D1200029396F /* ScrollPaginationState.swift in Sources */,
 				EB113C8F2CBAC7C000AE6F83 /* TestBaseButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
