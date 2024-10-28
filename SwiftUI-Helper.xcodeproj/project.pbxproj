@@ -40,6 +40,10 @@
 		EB4914C82CB30F8D00AFEE08 /* ColoredBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4914C72CB30F8C00AFEE08 /* ColoredBorder.swift */; };
 		EB4914CA2CB311B700AFEE08 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4914C92CB311B700AFEE08 /* TextView.swift */; };
 		EB54391E2CC6D1200029396F /* ScrollPaginationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54391D2CC6D11F0029396F /* ScrollPaginationState.swift */; };
+		EB83FA992CCD609300D7C38D /* CustomProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83FA982CCD608200D7C38D /* CustomProgressViewStyle.swift */; };
+		EB83FA9C2CCD610400D7C38D /* TestCustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83FA9B2CCD610400D7C38D /* TestCustomProgressView.swift */; };
+		EB83FA9E2CCD616700D7C38D /* TestCustomProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83FA9D2CCD616300D7C38D /* TestCustomProgressViewModel.swift */; };
+		EB83FAA02CCD643800D7C38D /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83FA9F2CCD643800D7C38D /* CustomProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +80,10 @@
 		EB4914C72CB30F8C00AFEE08 /* ColoredBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredBorder.swift; sourceTree = "<group>"; };
 		EB4914C92CB311B700AFEE08 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		EB54391D2CC6D11F0029396F /* ScrollPaginationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPaginationState.swift; sourceTree = "<group>"; };
+		EB83FA982CCD608200D7C38D /* CustomProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressViewStyle.swift; sourceTree = "<group>"; };
+		EB83FA9B2CCD610400D7C38D /* TestCustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomProgressView.swift; sourceTree = "<group>"; };
+		EB83FA9D2CCD616300D7C38D /* TestCustomProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomProgressViewModel.swift; sourceTree = "<group>"; };
+		EB83FA9F2CCD643800D7C38D /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +174,7 @@
 		E9A2967F2778A0DC00FE7260 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				EB83FA9A2CCD60F300D7C38D /* TestCustomProgressView */,
 				EB0450112CC68BD200B89C31 /* TestScrollView */,
 				EB113C902CBAC7D900AE6F83 /* TestBaseButton */,
 				E9F3811D2B2883C8003B7720 /* PickerScreen */,
@@ -180,6 +189,7 @@
 		E9A296802778A1C700FE7260 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				EB83FA972CCD601A00D7C38D /* ProgressViews */,
 				EB54391C2CC6D0AA0029396F /* ErrorViews */,
 				EB04500C2CC68A1B00B89C31 /* ScrollViews */,
 				EB428D602CC2EE3F00BCCAC4 /* Loaders */,
@@ -305,6 +315,24 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		EB83FA972CCD601A00D7C38D /* ProgressViews */ = {
+			isa = PBXGroup;
+			children = (
+				EB83FA9F2CCD643800D7C38D /* CustomProgressView.swift */,
+				EB83FA982CCD608200D7C38D /* CustomProgressViewStyle.swift */,
+			);
+			path = ProgressViews;
+			sourceTree = "<group>";
+		};
+		EB83FA9A2CCD60F300D7C38D /* TestCustomProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				EB83FA9B2CCD610400D7C38D /* TestCustomProgressView.swift */,
+				EB83FA9D2CCD616300D7C38D /* TestCustomProgressViewModel.swift */,
+			);
+			path = TestCustomProgressView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -390,6 +418,7 @@
 				EB428D622CC2EE5200BCCAC4 /* LoaderView.swift in Sources */,
 				EB0450132CC68BE800B89C31 /* TestScrollViewModel.swift in Sources */,
 				EB04500E2CC68A2800B89C31 /* PaginationScrollView.swift in Sources */,
+				EB83FAA02CCD643800D7C38D /* CustomProgressView.swift in Sources */,
 				EB428D662CC2F03600BCCAC4 /* View+Ext.swift in Sources */,
 				EB428D592CC2ED2400BCCAC4 /* BaseButtonState.swift in Sources */,
 				E9F381222B288432003B7720 /* Segment.swift in Sources */,
@@ -410,6 +439,9 @@
 				E9F3812B2B2888A8003B7720 /* Step.swift in Sources */,
 				E9F3811F2B2883DB003B7720 /* SegmentControl.swift in Sources */,
 				EB54391E2CC6D1200029396F /* ScrollPaginationState.swift in Sources */,
+				EB83FA9E2CCD616700D7C38D /* TestCustomProgressViewModel.swift in Sources */,
+				EB83FA992CCD609300D7C38D /* CustomProgressViewStyle.swift in Sources */,
+				EB83FA9C2CCD610400D7C38D /* TestCustomProgressView.swift in Sources */,
 				EB113C8F2CBAC7C000AE6F83 /* TestBaseButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
