@@ -30,6 +30,9 @@
 		EB0450152CC68C0900B89C31 /* TestScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0450142CC68C0900B89C31 /* TestScrollView.swift */; };
 		EB113C8F2CBAC7C000AE6F83 /* TestBaseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB113C8E2CBAC7C000AE6F83 /* TestBaseButtonView.swift */; };
 		EB113C922CBAC7E400AE6F83 /* TestBaseButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB113C912CBAC7E100AE6F83 /* TestBaseButtonViewModel.swift */; };
+		EB249BB42CE0B8A600F3F971 /* GlobalSnackBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB249BB32CE0B8A600F3F971 /* GlobalSnackBarView.swift */; };
+		EB249BB92CE0D01800F3F971 /* GlobalSnackBarViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB249BB82CE0D01700F3F971 /* GlobalSnackBarViewModifier.swift */; };
+		EB249BBB2CE0D0FD00F3F971 /* GlobalSnackBarObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB249BBA2CE0D0FC00F3F971 /* GlobalSnackBarObject.swift */; };
 		EB25B5762CBA87DC0036669C /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25B5752CBA87DC0036669C /* BaseButton.swift */; };
 		EB428D592CC2ED2400BCCAC4 /* BaseButtonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428D582CC2ED2300BCCAC4 /* BaseButtonState.swift */; };
 		EB428D5D2CC2EDD000BCCAC4 /* MainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428D5C2CC2EDCF00BCCAC4 /* MainButtonStyle.swift */; };
@@ -70,6 +73,9 @@
 		EB0450142CC68C0900B89C31 /* TestScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollView.swift; sourceTree = "<group>"; };
 		EB113C8E2CBAC7C000AE6F83 /* TestBaseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBaseButtonView.swift; sourceTree = "<group>"; };
 		EB113C912CBAC7E100AE6F83 /* TestBaseButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBaseButtonViewModel.swift; sourceTree = "<group>"; };
+		EB249BB32CE0B8A600F3F971 /* GlobalSnackBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSnackBarView.swift; sourceTree = "<group>"; };
+		EB249BB82CE0D01700F3F971 /* GlobalSnackBarViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSnackBarViewModifier.swift; sourceTree = "<group>"; };
+		EB249BBA2CE0D0FC00F3F971 /* GlobalSnackBarObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSnackBarObject.swift; sourceTree = "<group>"; };
 		EB25B5752CBA87DC0036669C /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 		EB428D582CC2ED2300BCCAC4 /* BaseButtonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonState.swift; sourceTree = "<group>"; };
 		EB428D5C2CC2EDCF00BCCAC4 /* MainButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonStyle.swift; sourceTree = "<group>"; };
@@ -189,6 +195,7 @@
 		E9A296802778A1C700FE7260 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				EB249BB62CE0CFE100F3F971 /* SnackBars */,
 				EB83FA972CCD601A00D7C38D /* ProgressViews */,
 				EB54391C2CC6D0AA0029396F /* ErrorViews */,
 				EB04500C2CC68A1B00B89C31 /* ScrollViews */,
@@ -265,6 +272,23 @@
 			path = TestBaseButton;
 			sourceTree = "<group>";
 		};
+		EB249BB62CE0CFE100F3F971 /* SnackBars */ = {
+			isa = PBXGroup;
+			children = (
+				EB249BB72CE0CFF200F3F971 /* Global */,
+			);
+			path = SnackBars;
+			sourceTree = "<group>";
+		};
+		EB249BB72CE0CFF200F3F971 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				EB249BBA2CE0D0FC00F3F971 /* GlobalSnackBarObject.swift */,
+				EB249BB32CE0B8A600F3F971 /* GlobalSnackBarView.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
 		EB428D5A2CC2ED6700BCCAC4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,6 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				EB4914C72CB30F8C00AFEE08 /* ColoredBorder.swift */,
+				EB249BB82CE0D01700F3F971 /* GlobalSnackBarViewModifier.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -417,7 +442,9 @@
 				EB25B5762CBA87DC0036669C /* BaseButton.swift in Sources */,
 				EB428D622CC2EE5200BCCAC4 /* LoaderView.swift in Sources */,
 				EB0450132CC68BE800B89C31 /* TestScrollViewModel.swift in Sources */,
+				EB249BB42CE0B8A600F3F971 /* GlobalSnackBarView.swift in Sources */,
 				EB04500E2CC68A2800B89C31 /* PaginationScrollView.swift in Sources */,
+				EB249BBB2CE0D0FD00F3F971 /* GlobalSnackBarObject.swift in Sources */,
 				EB83FAA02CCD643800D7C38D /* CustomProgressView.swift in Sources */,
 				EB428D662CC2F03600BCCAC4 /* View+Ext.swift in Sources */,
 				EB428D592CC2ED2400BCCAC4 /* BaseButtonState.swift in Sources */,
@@ -425,6 +452,7 @@
 				E9A296732778A02D00FE7260 /* MainView.swift in Sources */,
 				E9F3811C2B28839D003B7720 /* PickerScreenView.swift in Sources */,
 				E9A296712778A02D00FE7260 /* SwiftUI_HelperApp.swift in Sources */,
+				EB249BB92CE0D01800F3F971 /* GlobalSnackBarViewModifier.swift in Sources */,
 				E9A296832778A22C00FE7260 /* TextEditorView.swift in Sources */,
 				EB0450102CC68A9300B89C31 /* ErrorPaginationView.swift in Sources */,
 				EB113C922CBAC7E400AE6F83 /* TestBaseButtonViewModel.swift in Sources */,

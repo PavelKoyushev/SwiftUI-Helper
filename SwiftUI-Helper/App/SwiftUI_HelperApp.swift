@@ -9,10 +9,16 @@ import SwiftUI
 
 @main
 struct SwiftUI_HelperApp: App {
+    
+    @StateObject private var object = GlobalSnackBarObject()
+    
     var body: some Scene {
         WindowGroup {
             MainView()
                 .preferredColorScheme(.light)
+                .environment(\.globalSnackBar, object)
+                .snackBarView(isShow: $object.isShow,
+                              message: object.message)
         }
     }
 }

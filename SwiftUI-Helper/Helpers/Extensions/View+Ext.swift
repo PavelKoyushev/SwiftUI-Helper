@@ -15,3 +15,10 @@ extension View {
                                borderColor: borderColor))
     }
 }
+
+extension View {
+    
+    func snackBarView(isShow: Binding<Bool>, message: String) -> some View {
+        modifier(GlobalSnackBarViewModifier(isShow: isShow, message: message))
+    }
+}
