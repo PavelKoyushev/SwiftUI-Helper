@@ -10,6 +10,8 @@ import HelperSwiftUI
 
 struct CardsView: View {
     
+    @Environment(\.globalSnackBar) var globalSnackBar
+    
     var body: some View {
         content
             .navigationBarTitleDisplayMode(.inline)
@@ -27,6 +29,8 @@ private extension CardsView {
                         Color.purple
                             .frame(height: 120)
                             .cornerRadius(20)
+                            .padding(.horizontal, 4)
+                            .onTapGesture(perform: onCellTap)
                     }
                 }
             }
@@ -54,16 +58,30 @@ private extension CardsView {
             }
             .safeAreaPadding(.horizontal)
         } else {
-            ScrollView {
-                LazyVStack {
-                    ForEach(1..<20) { _ in
-                        Color.purple
-                            .frame(height: 120)
-                            .cornerRadius(20)
-                    }
+            scrollView
+        }
+    }
+    
+    var scrollView: some View {
+        ScrollView {
+            LazyVStack {
+                ForEach(1..<20) { _ in
+                    Color.purple
+                        .frame(height: 120)
+                        .cornerRadius(20)
+                        .padding(.horizontal)
+                        .onTapGesture(perform: onCellTap)
                 }
             }
         }
+    }
+}
+
+private extension CardsView {
+    
+    func onCellTap() {
+        globalSnackBar.message = "The snack bar has appeared! \(Int.random(in: 1...100))"
+        globalSnackBar.isShow = true
     }
 }
 
