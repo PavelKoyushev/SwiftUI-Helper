@@ -47,6 +47,8 @@
 		EB83FA9C2CCD610400D7C38D /* TestCustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83FA9B2CCD610400D7C38D /* TestCustomProgressView.swift */; };
 		EB83FA9E2CCD616700D7C38D /* TestCustomProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83FA9D2CCD616300D7C38D /* TestCustomProgressViewModel.swift */; };
 		EB83FAA02CCD643800D7C38D /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83FA9F2CCD643800D7C38D /* CustomProgressView.swift */; };
+		EBFAEBF82D0995E5001E575B /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFAEBF72D0995E5001E575B /* AvatarView.swift */; };
+		EBFAEBFB2D09AFBF001E575B /* TestAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFAEBFA2D09AFBF001E575B /* TestAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +92,8 @@
 		EB83FA9B2CCD610400D7C38D /* TestCustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomProgressView.swift; sourceTree = "<group>"; };
 		EB83FA9D2CCD616300D7C38D /* TestCustomProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomProgressViewModel.swift; sourceTree = "<group>"; };
 		EB83FA9F2CCD643800D7C38D /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
+		EBFAEBF72D0995E5001E575B /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		EBFAEBFA2D09AFBF001E575B /* TestAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +187,7 @@
 				EB83FA9A2CCD60F300D7C38D /* TestCustomProgressView */,
 				EB0450112CC68BD200B89C31 /* TestScrollView */,
 				EB113C902CBAC7D900AE6F83 /* TestBaseButton */,
+				EBFAEBF92D09AFAC001E575B /* TestAnimation */,
 				E9F3811D2B2883C8003B7720 /* PickerScreen */,
 				E9A296722778A02D00FE7260 /* MainView.swift */,
 				E9A296842778A77A00FE7260 /* TextEditView.swift */,
@@ -195,6 +200,7 @@
 		E9A296802778A1C700FE7260 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				EB66E8FF2D09F476004230C7 /* Animations */,
 				EB249BB62CE0CFE100F3F971 /* SnackBars */,
 				EB83FA972CCD601A00D7C38D /* ProgressViews */,
 				EB54391C2CC6D0AA0029396F /* ErrorViews */,
@@ -332,6 +338,14 @@
 			path = ErrorViews;
 			sourceTree = "<group>";
 		};
+		EB66E8FF2D09F476004230C7 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				EBFAEBF72D0995E5001E575B /* AvatarView.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		EB7626992CAC72E600A58C33 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,6 +370,14 @@
 				EB83FA9D2CCD616300D7C38D /* TestCustomProgressViewModel.swift */,
 			);
 			path = TestCustomProgressView;
+			sourceTree = "<group>";
+		};
+		EBFAEBF92D09AFAC001E575B /* TestAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EBFAEBFA2D09AFBF001E575B /* TestAnimationView.swift */,
+			);
+			path = TestAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,6 +474,7 @@
 				E9A296732778A02D00FE7260 /* MainView.swift in Sources */,
 				E9F3811C2B28839D003B7720 /* PickerScreenView.swift in Sources */,
 				E9A296712778A02D00FE7260 /* SwiftUI_HelperApp.swift in Sources */,
+				EBFAEBF82D0995E5001E575B /* AvatarView.swift in Sources */,
 				EB249BB92CE0D01800F3F971 /* GlobalSnackBarViewModifier.swift in Sources */,
 				E9A296832778A22C00FE7260 /* TextEditorView.swift in Sources */,
 				EB0450102CC68A9300B89C31 /* ErrorPaginationView.swift in Sources */,
@@ -465,6 +488,7 @@
 				EB4914CA2CB311B700AFEE08 /* TextView.swift in Sources */,
 				EB0450152CC68C0900B89C31 /* TestScrollView.swift in Sources */,
 				E9F3812B2B2888A8003B7720 /* Step.swift in Sources */,
+				EBFAEBFB2D09AFBF001E575B /* TestAnimationView.swift in Sources */,
 				E9F3811F2B2883DB003B7720 /* SegmentControl.swift in Sources */,
 				EB54391E2CC6D1200029396F /* ScrollPaginationState.swift in Sources */,
 				EB83FA9E2CCD616700D7C38D /* TestCustomProgressViewModel.swift in Sources */,
