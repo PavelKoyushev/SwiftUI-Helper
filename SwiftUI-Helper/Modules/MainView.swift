@@ -32,20 +32,14 @@ struct MainView: View {
 private extension MainView {
     
     var content: some View {
-        VStack(alignment: .center, spacing: 40) {
-            
+        VStack(alignment: .center, spacing: 30) {
             Spacer()
-            
             stepbutton
-            
             navLink
-            
             navLink2
-            
             navLink3
-            
+            navLink4
             myButton
-            
             Spacer()
         }
     }
@@ -76,6 +70,17 @@ private extension MainView {
         NavigationLink(destination: TestAnimationView()) {
             Label {
                 Text("AnimationView")
+                    .font(.system(size: 20))
+                    .foregroundColor(.blue)
+            } icon: { }
+        }
+        .frame(width: screen.width)
+    }
+    
+    var navLink4: some View {
+        NavigationLink(destination: ShapeView()) {
+            Label {
+                Text("ShapeView")
                     .font(.system(size: 20))
                     .foregroundColor(.blue)
             } icon: { }

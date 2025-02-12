@@ -34,6 +34,10 @@
 		EB249BB92CE0D01800F3F971 /* GlobalSnackBarViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB249BB82CE0D01700F3F971 /* GlobalSnackBarViewModifier.swift */; };
 		EB249BBB2CE0D0FD00F3F971 /* GlobalSnackBarObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB249BBA2CE0D0FC00F3F971 /* GlobalSnackBarObject.swift */; };
 		EB25B5762CBA87DC0036669C /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25B5752CBA87DC0036669C /* BaseButton.swift */; };
+		EB3751C42D5CE85400C73925 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3751C32D5CE85200C73925 /* Triangle.swift */; };
+		EB3751C62D5CE89400C73925 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3751C52D5CE89200C73925 /* Square.swift */; };
+		EB3751C82D5CE8CE00C73925 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3751C72D5CE8CD00C73925 /* Star.swift */; };
+		EB3751CA2D5CE8FE00C73925 /* RoundedStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3751C92D5CE8FD00C73925 /* RoundedStar.swift */; };
 		EB428D592CC2ED2400BCCAC4 /* BaseButtonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428D582CC2ED2300BCCAC4 /* BaseButtonState.swift */; };
 		EB428D5D2CC2EDD000BCCAC4 /* MainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428D5C2CC2EDCF00BCCAC4 /* MainButtonStyle.swift */; };
 		EB428D5F2CC2EDF900BCCAC4 /* BaseButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB428D5E2CC2EDF800BCCAC4 /* BaseButtonStyle.swift */; };
@@ -47,6 +51,9 @@
 		EB83FA9C2CCD610400D7C38D /* TestCustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83FA9B2CCD610400D7C38D /* TestCustomProgressView.swift */; };
 		EB83FA9E2CCD616700D7C38D /* TestCustomProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83FA9D2CCD616300D7C38D /* TestCustomProgressViewModel.swift */; };
 		EB83FAA02CCD643800D7C38D /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83FA9F2CCD643800D7C38D /* CustomProgressView.swift */; };
+		EB9DCE5E2D5C87ED007478F8 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9DCE5D2D5C87ED007478F8 /* ShapeView.swift */; };
+		EBDE1B992D5CF99500E5BF5D /* Path+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE1B982D5CF98F00E5BF5D /* Path+Ext.swift */; };
+		EBDE1B9B2D5CF9E400E5BF5D /* CGPath+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE1B9A2D5CF9E000E5BF5D /* CGPath+Ext.swift */; };
 		EBFAEBF82D0995E5001E575B /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFAEBF72D0995E5001E575B /* AvatarView.swift */; };
 		EBFAEBFB2D09AFBF001E575B /* TestAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFAEBFA2D09AFBF001E575B /* TestAnimationView.swift */; };
 /* End PBXBuildFile section */
@@ -79,6 +86,10 @@
 		EB249BB82CE0D01700F3F971 /* GlobalSnackBarViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSnackBarViewModifier.swift; sourceTree = "<group>"; };
 		EB249BBA2CE0D0FC00F3F971 /* GlobalSnackBarObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSnackBarObject.swift; sourceTree = "<group>"; };
 		EB25B5752CBA87DC0036669C /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		EB3751C32D5CE85200C73925 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		EB3751C52D5CE89200C73925 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		EB3751C72D5CE8CD00C73925 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		EB3751C92D5CE8FD00C73925 /* RoundedStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedStar.swift; sourceTree = "<group>"; };
 		EB428D582CC2ED2300BCCAC4 /* BaseButtonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonState.swift; sourceTree = "<group>"; };
 		EB428D5C2CC2EDCF00BCCAC4 /* MainButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonStyle.swift; sourceTree = "<group>"; };
 		EB428D5E2CC2EDF800BCCAC4 /* BaseButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonStyle.swift; sourceTree = "<group>"; };
@@ -92,6 +103,9 @@
 		EB83FA9B2CCD610400D7C38D /* TestCustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomProgressView.swift; sourceTree = "<group>"; };
 		EB83FA9D2CCD616300D7C38D /* TestCustomProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomProgressViewModel.swift; sourceTree = "<group>"; };
 		EB83FA9F2CCD643800D7C38D /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
+		EB9DCE5D2D5C87ED007478F8 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		EBDE1B982D5CF98F00E5BF5D /* Path+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path+Ext.swift"; sourceTree = "<group>"; };
+		EBDE1B9A2D5CF9E000E5BF5D /* CGPath+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPath+Ext.swift"; sourceTree = "<group>"; };
 		EBFAEBF72D0995E5001E575B /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		EBFAEBFA2D09AFBF001E575B /* TestAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -184,6 +198,7 @@
 		E9A2967F2778A0DC00FE7260 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				EB9DCE5C2D5C87D6007478F8 /* ShapeView */,
 				EB83FA9A2CCD60F300D7C38D /* TestCustomProgressView */,
 				EB0450112CC68BD200B89C31 /* TestScrollView */,
 				EB113C902CBAC7D900AE6F83 /* TestBaseButton */,
@@ -200,6 +215,7 @@
 		E9A296802778A1C700FE7260 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				EB3751C22D5CE83D00C73925 /* Shapes */,
 				EB66E8FF2D09F476004230C7 /* Animations */,
 				EB249BB62CE0CFE100F3F971 /* SnackBars */,
 				EB83FA972CCD601A00D7C38D /* ProgressViews */,
@@ -295,6 +311,17 @@
 			path = Global;
 			sourceTree = "<group>";
 		};
+		EB3751C22D5CE83D00C73925 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				EB3751C92D5CE8FD00C73925 /* RoundedStar.swift */,
+				EB3751C72D5CE8CD00C73925 /* Star.swift */,
+				EB3751C52D5CE89200C73925 /* Square.swift */,
+				EB3751C32D5CE85200C73925 /* Triangle.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
 		EB428D5A2CC2ED6700BCCAC4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,6 +376,8 @@
 		EB7626992CAC72E600A58C33 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				EBDE1B9A2D5CF9E000E5BF5D /* CGPath+Ext.swift */,
+				EBDE1B982D5CF98F00E5BF5D /* Path+Ext.swift */,
 				EB428D652CC2F03100BCCAC4 /* View+Ext.swift */,
 			);
 			path = Extensions;
@@ -370,6 +399,14 @@
 				EB83FA9D2CCD616300D7C38D /* TestCustomProgressViewModel.swift */,
 			);
 			path = TestCustomProgressView;
+			sourceTree = "<group>";
+		};
+		EB9DCE5C2D5C87D6007478F8 /* ShapeView */ = {
+			isa = PBXGroup;
+			children = (
+				EB9DCE5D2D5C87ED007478F8 /* ShapeView.swift */,
+			);
+			path = ShapeView;
 			sourceTree = "<group>";
 		};
 		EBFAEBF92D09AFAC001E575B /* TestAnimation */ = {
@@ -458,6 +495,7 @@
 			files = (
 				E9F3812D2B288B82003B7720 /* SecondView.swift in Sources */,
 				E96E6D7B2A3E1EE20020A761 /* CardsView.swift in Sources */,
+				EBDE1B9B2D5CF9E400E5BF5D /* CGPath+Ext.swift in Sources */,
 				E9F381312B28A77D003B7720 /* KPIndex.swift in Sources */,
 				E9F381262B288678003B7720 /* FirstView.swift in Sources */,
 				EB428D642CC2EFA100BCCAC4 /* ActivityIndicator.swift in Sources */,
@@ -465,7 +503,9 @@
 				EB428D622CC2EE5200BCCAC4 /* LoaderView.swift in Sources */,
 				EB0450132CC68BE800B89C31 /* TestScrollViewModel.swift in Sources */,
 				EB249BB42CE0B8A600F3F971 /* GlobalSnackBarView.swift in Sources */,
+				EB3751C42D5CE85400C73925 /* Triangle.swift in Sources */,
 				EB04500E2CC68A2800B89C31 /* PaginationScrollView.swift in Sources */,
+				EB3751CA2D5CE8FE00C73925 /* RoundedStar.swift in Sources */,
 				EB249BBB2CE0D0FD00F3F971 /* GlobalSnackBarObject.swift in Sources */,
 				EB83FAA02CCD643800D7C38D /* CustomProgressView.swift in Sources */,
 				EB428D662CC2F03600BCCAC4 /* View+Ext.swift in Sources */,
@@ -479,13 +519,17 @@
 				E9A296832778A22C00FE7260 /* TextEditorView.swift in Sources */,
 				EB0450102CC68A9300B89C31 /* ErrorPaginationView.swift in Sources */,
 				EB113C922CBAC7E400AE6F83 /* TestBaseButtonViewModel.swift in Sources */,
+				EB3751C62D5CE89400C73925 /* Square.swift in Sources */,
 				E9F381242B288552003B7720 /* PickerContent.swift in Sources */,
+				EB3751C82D5CE8CE00C73925 /* Star.swift in Sources */,
 				EB428D5D2CC2EDD000BCCAC4 /* MainButtonStyle.swift in Sources */,
 				EB428D5F2CC2EDF900BCCAC4 /* BaseButtonStyle.swift in Sources */,
 				EB4914C82CB30F8D00AFEE08 /* ColoredBorder.swift in Sources */,
 				E9A296852778A77A00FE7260 /* TextEditView.swift in Sources */,
 				E96516B028CA577300E28180 /* MainButton.swift in Sources */,
 				EB4914CA2CB311B700AFEE08 /* TextView.swift in Sources */,
+				EBDE1B992D5CF99500E5BF5D /* Path+Ext.swift in Sources */,
+				EB9DCE5E2D5C87ED007478F8 /* ShapeView.swift in Sources */,
 				EB0450152CC68C0900B89C31 /* TestScrollView.swift in Sources */,
 				E9F3812B2B2888A8003B7720 /* Step.swift in Sources */,
 				EBFAEBFB2D09AFBF001E575B /* TestAnimationView.swift in Sources */,
