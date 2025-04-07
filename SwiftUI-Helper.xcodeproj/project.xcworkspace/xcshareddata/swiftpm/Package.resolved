@@ -1,4 +1,5 @@
 {
+  "originHash" : "359d1becf1c866599a2ddda39cb784369e3f3fcdfb46c892c673a30646a32ee4",
   "pins" : [
     {
       "identity" : "helperforswiftui",
@@ -10,5 +11,5 @@
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

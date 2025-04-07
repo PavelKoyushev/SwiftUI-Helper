@@ -39,6 +39,7 @@ private extension MainView {
             navLink2
             navLink3
             navLink4
+            navLink5
             myButton
             Spacer()
         }
@@ -81,6 +82,17 @@ private extension MainView {
         NavigationLink(destination: ShapeView()) {
             Label {
                 Text("ShapeView")
+                    .font(.system(size: 20))
+                    .foregroundColor(.blue)
+            } icon: { }
+        }
+        .frame(width: screen.width)
+    }
+    
+    var navLink5: some View {
+        NavigationLink(destination: CreditCardsView()) {
+            Label {
+                Text("CreditCardsView")
                     .font(.system(size: 20))
                     .foregroundColor(.blue)
             } icon: { }

@@ -51,7 +51,13 @@
 		EB83FA9C2CCD610400D7C38D /* TestCustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83FA9B2CCD610400D7C38D /* TestCustomProgressView.swift */; };
 		EB83FA9E2CCD616700D7C38D /* TestCustomProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83FA9D2CCD616300D7C38D /* TestCustomProgressViewModel.swift */; };
 		EB83FAA02CCD643800D7C38D /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83FA9F2CCD643800D7C38D /* CustomProgressView.swift */; };
+		EB90177D2DA1AB7A00AAD3CB /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB90177C2DA1AB7600AAD3CB /* FlipView.swift */; };
 		EB9DCE5E2D5C87ED007478F8 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9DCE5D2D5C87ED007478F8 /* ShapeView.swift */; };
+		EB9E97A52DA2B75200D5E637 /* CreditCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9E97A42DA2B75200D5E637 /* CreditCardsView.swift */; };
+		EB9E97A72DA2B90F00D5E637 /* FlipContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9E97A62DA2B90F00D5E637 /* FlipContainer.swift */; };
+		EB9E97A92DA2BC9C00D5E637 /* CardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9E97A82DA2BC9B00D5E637 /* CardBackView.swift */; };
+		EB9E97AB2DA2BCB400D5E637 /* CardFrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9E97AA2DA2BCB300D5E637 /* CardFrontView.swift */; };
+		EB9E97AD2DA2CA6C00D5E637 /* CreditCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9E97AC2DA2CA6B00D5E637 /* CreditCardModel.swift */; };
 		EBDE1B992D5CF99500E5BF5D /* Path+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE1B982D5CF98F00E5BF5D /* Path+Ext.swift */; };
 		EBDE1B9B2D5CF9E400E5BF5D /* CGPath+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE1B9A2D5CF9E000E5BF5D /* CGPath+Ext.swift */; };
 		EBFAEBF82D0995E5001E575B /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFAEBF72D0995E5001E575B /* AvatarView.swift */; };
@@ -103,7 +109,13 @@
 		EB83FA9B2CCD610400D7C38D /* TestCustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomProgressView.swift; sourceTree = "<group>"; };
 		EB83FA9D2CCD616300D7C38D /* TestCustomProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomProgressViewModel.swift; sourceTree = "<group>"; };
 		EB83FA9F2CCD643800D7C38D /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
+		EB90177C2DA1AB7600AAD3CB /* FlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
 		EB9DCE5D2D5C87ED007478F8 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		EB9E97A42DA2B75200D5E637 /* CreditCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardsView.swift; sourceTree = "<group>"; };
+		EB9E97A62DA2B90F00D5E637 /* FlipContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipContainer.swift; sourceTree = "<group>"; };
+		EB9E97A82DA2BC9B00D5E637 /* CardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackView.swift; sourceTree = "<group>"; };
+		EB9E97AA2DA2BCB300D5E637 /* CardFrontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFrontView.swift; sourceTree = "<group>"; };
+		EB9E97AC2DA2CA6B00D5E637 /* CreditCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardModel.swift; sourceTree = "<group>"; };
 		EBDE1B982D5CF98F00E5BF5D /* Path+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path+Ext.swift"; sourceTree = "<group>"; };
 		EBDE1B9A2D5CF9E000E5BF5D /* CGPath+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPath+Ext.swift"; sourceTree = "<group>"; };
 		EBFAEBF72D0995E5001E575B /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
@@ -204,6 +216,7 @@
 				EB113C902CBAC7D900AE6F83 /* TestBaseButton */,
 				EBFAEBF92D09AFAC001E575B /* TestAnimation */,
 				E9F3811D2B2883C8003B7720 /* PickerScreen */,
+				EB9E97A32DA2B74000D5E637 /* CreditCards */,
 				E9A296722778A02D00FE7260 /* MainView.swift */,
 				E9A296842778A77A00FE7260 /* TextEditView.swift */,
 				E96E6D7A2A3E1EE20020A761 /* CardsView.swift */,
@@ -245,6 +258,7 @@
 				EB428D582CC2ED2300BCCAC4 /* BaseButtonState.swift */,
 				E9F381212B288432003B7720 /* Segment.swift */,
 				E9F3812A2B2888A8003B7720 /* Step.swift */,
+				EB9E97AC2DA2CA6B00D5E637 /* CreditCardModel.swift */,
 				E9F381302B28A77D003B7720 /* KPIndex.swift */,
 			);
 			path = Models;
@@ -383,6 +397,24 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		EB7B949D2DA43408004198AF /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				EB9E97AA2DA2BCB300D5E637 /* CardFrontView.swift */,
+				EB9E97A82DA2BC9B00D5E637 /* CardBackView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		EB7B949E2DA43875004198AF /* Flip */ = {
+			isa = PBXGroup;
+			children = (
+				EB90177C2DA1AB7600AAD3CB /* FlipView.swift */,
+				EB9E97A62DA2B90F00D5E637 /* FlipContainer.swift */,
+			);
+			path = Flip;
+			sourceTree = "<group>";
+		};
 		EB83FA972CCD601A00D7C38D /* ProgressViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -407,6 +439,16 @@
 				EB9DCE5D2D5C87ED007478F8 /* ShapeView.swift */,
 			);
 			path = ShapeView;
+			sourceTree = "<group>";
+		};
+		EB9E97A32DA2B74000D5E637 /* CreditCards */ = {
+			isa = PBXGroup;
+			children = (
+				EB9E97A42DA2B75200D5E637 /* CreditCardsView.swift */,
+				EB7B949E2DA43875004198AF /* Flip */,
+				EB7B949D2DA43408004198AF /* Card */,
+			);
+			path = CreditCards;
 			sourceTree = "<group>";
 		};
 		EBFAEBF92D09AFAC001E575B /* TestAnimation */ = {
@@ -494,6 +536,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9F3812D2B288B82003B7720 /* SecondView.swift in Sources */,
+				EB9E97A52DA2B75200D5E637 /* CreditCardsView.swift in Sources */,
 				E96E6D7B2A3E1EE20020A761 /* CardsView.swift in Sources */,
 				EBDE1B9B2D5CF9E400E5BF5D /* CGPath+Ext.swift in Sources */,
 				E9F381312B28A77D003B7720 /* KPIndex.swift in Sources */,
@@ -503,6 +546,7 @@
 				EB428D622CC2EE5200BCCAC4 /* LoaderView.swift in Sources */,
 				EB0450132CC68BE800B89C31 /* TestScrollViewModel.swift in Sources */,
 				EB249BB42CE0B8A600F3F971 /* GlobalSnackBarView.swift in Sources */,
+				EB9E97AB2DA2BCB400D5E637 /* CardFrontView.swift in Sources */,
 				EB3751C42D5CE85400C73925 /* Triangle.swift in Sources */,
 				EB04500E2CC68A2800B89C31 /* PaginationScrollView.swift in Sources */,
 				EB3751CA2D5CE8FE00C73925 /* RoundedStar.swift in Sources */,
@@ -513,6 +557,7 @@
 				E9F381222B288432003B7720 /* Segment.swift in Sources */,
 				E9A296732778A02D00FE7260 /* MainView.swift in Sources */,
 				E9F3811C2B28839D003B7720 /* PickerScreenView.swift in Sources */,
+				EB9E97A92DA2BC9C00D5E637 /* CardBackView.swift in Sources */,
 				E9A296712778A02D00FE7260 /* SwiftUI_HelperApp.swift in Sources */,
 				EBFAEBF82D0995E5001E575B /* AvatarView.swift in Sources */,
 				EB249BB92CE0D01800F3F971 /* GlobalSnackBarViewModifier.swift in Sources */,
@@ -520,6 +565,7 @@
 				EB0450102CC68A9300B89C31 /* ErrorPaginationView.swift in Sources */,
 				EB113C922CBAC7E400AE6F83 /* TestBaseButtonViewModel.swift in Sources */,
 				EB3751C62D5CE89400C73925 /* Square.swift in Sources */,
+				EB9E97AD2DA2CA6C00D5E637 /* CreditCardModel.swift in Sources */,
 				E9F381242B288552003B7720 /* PickerContent.swift in Sources */,
 				EB3751C82D5CE8CE00C73925 /* Star.swift in Sources */,
 				EB428D5D2CC2EDD000BCCAC4 /* MainButtonStyle.swift in Sources */,
@@ -532,8 +578,10 @@
 				EB9DCE5E2D5C87ED007478F8 /* ShapeView.swift in Sources */,
 				EB0450152CC68C0900B89C31 /* TestScrollView.swift in Sources */,
 				E9F3812B2B2888A8003B7720 /* Step.swift in Sources */,
+				EB90177D2DA1AB7A00AAD3CB /* FlipView.swift in Sources */,
 				EBFAEBFB2D09AFBF001E575B /* TestAnimationView.swift in Sources */,
 				E9F3811F2B2883DB003B7720 /* SegmentControl.swift in Sources */,
+				EB9E97A72DA2B90F00D5E637 /* FlipContainer.swift in Sources */,
 				EB54391E2CC6D1200029396F /* ScrollPaginationState.swift in Sources */,
 				EB83FA9E2CCD616700D7C38D /* TestCustomProgressViewModel.swift in Sources */,
 				EB83FA992CCD609300D7C38D /* CustomProgressViewStyle.swift in Sources */,
