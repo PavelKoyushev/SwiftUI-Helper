@@ -14,6 +14,10 @@ final class TestCustomProgressViewModel: ObservableObject {
     init() {
         bind()
     }
+    
+    deinit {
+        print("\(Self.self) deinited")
+    }
 }
 
 extension TestCustomProgressViewModel {

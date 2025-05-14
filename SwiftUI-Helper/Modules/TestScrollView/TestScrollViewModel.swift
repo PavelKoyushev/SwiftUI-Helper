@@ -18,6 +18,10 @@ final class TestScrollViewModel: ObservableObject {
     @Published var array = Array(1...31)
     
     @Published var model: [Int] = []
+    
+    deinit {
+        print("\(Self.self) deinited")
+    }
 }
 
 extension TestScrollViewModel {

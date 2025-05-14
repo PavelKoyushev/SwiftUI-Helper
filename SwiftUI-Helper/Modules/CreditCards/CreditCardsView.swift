@@ -23,7 +23,9 @@ private extension CreditCardsView {
                 balance
                 cards
             }
+            .padding(.bottom)
         }
+        .scrollIndicators(.hidden)
     }
     
     var balance: some View {

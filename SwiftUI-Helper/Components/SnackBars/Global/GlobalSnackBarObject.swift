@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class GlobalSnackBarObject: ObservableObject {
+final class GlobalSnackBarObject: ObservableObject {
     
     @Published var isShow: Bool = false
     var message: String = ""
