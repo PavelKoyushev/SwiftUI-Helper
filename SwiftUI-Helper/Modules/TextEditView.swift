@@ -21,16 +21,19 @@ struct TextEditView: View {
 private extension TextEditView {
     
     var content: some View {
-        VStack(alignment: .center, spacing: 0) {
-            Image(systemName: "text.bubble.fill")
-                .font(.system(size: 100))
-                .foregroundColor(.blue)
-            commentView
-                .padding()
-            Spacer()
+        ScrollView {
+            VStack(alignment: .center, spacing: 0) {
+                image
+                commentView
+                myButton
+            }
         }
-        .frame(minWidth: 0, maxWidth: .infinity)
-        .frame(minHeight: 0, maxHeight: .infinity)
+    }
+    
+    var image: some View {
+        Image(systemName: "text.bubble.fill")
+            .font(.system(size: 100))
+            .foregroundColor(.blue)
     }
     
     var commentView: some View {
@@ -39,6 +42,21 @@ private extension TextEditView {
                 .font(.system(size: 16, weight: .bold, design: .default))
             TextEditorView(comment: $comment)
         }
+        .padding()
+    }
+    
+    var myButton: some View {
+        MainButton(isDisabled: .constant(false),
+                   text: "Clean",
+                   action: onCleanTap)
+        .frame(width: 200)
+    }
+}
+
+private extension TextEditView {
+    
+    func onCleanTap() {
+        comment = ""
     }
 }
 

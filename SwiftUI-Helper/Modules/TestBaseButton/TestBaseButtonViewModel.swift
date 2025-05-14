@@ -17,6 +17,10 @@ final class TestBaseButtonViewModel: ObservableObject {
     init() {
         bind()
     }
+    
+    deinit {
+        print("\(Self.self) deinited")
+    }
 }
 
 extension TestBaseButtonViewModel {

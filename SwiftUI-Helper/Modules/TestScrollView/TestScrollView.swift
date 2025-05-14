@@ -12,15 +12,13 @@ struct TestScrollView: View {
     @StateObject var viewModel = TestScrollViewModel()
     
     var body: some View {
-        NavigationStack {
-            content
-                .navigationTitle(Text("PaginationScrollView"))
-                .navigationBarTitleDisplayMode(.inline)
-                .toolbarBackground(.white, for: .navigationBar)
-                .toolbarBackground(.visible, for: .navigationBar)
-                .background(Color.blue.opacity(0.8).ignoresSafeArea())
-                .onAppear(perform: onAppear)
-        }
+        content
+            .navigationTitle(Text("PaginationScrollView"))
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbarBackground(.white, for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
+            .background(Color.blue.opacity(0.8).ignoresSafeArea())
+            .onAppear(perform: onAppear)
     }
 }
 

@@ -34,6 +34,7 @@
 		EB249BB92CE0D01800F3F971 /* GlobalSnackBarViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB249BB82CE0D01700F3F971 /* GlobalSnackBarViewModifier.swift */; };
 		EB249BBB2CE0D0FD00F3F971 /* GlobalSnackBarObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB249BBA2CE0D0FC00F3F971 /* GlobalSnackBarObject.swift */; };
 		EB25B5762CBA87DC0036669C /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25B5752CBA87DC0036669C /* BaseButton.swift */; };
+		EB297E352DD3CB8F0098760A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB297E342DD3CB8B0098760A /* MainViewModel.swift */; };
 		EB3751C42D5CE85400C73925 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3751C32D5CE85200C73925 /* Triangle.swift */; };
 		EB3751C62D5CE89400C73925 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3751C52D5CE89200C73925 /* Square.swift */; };
 		EB3751C82D5CE8CE00C73925 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3751C72D5CE8CD00C73925 /* Star.swift */; };
@@ -92,6 +93,7 @@
 		EB249BB82CE0D01700F3F971 /* GlobalSnackBarViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSnackBarViewModifier.swift; sourceTree = "<group>"; };
 		EB249BBA2CE0D0FC00F3F971 /* GlobalSnackBarObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSnackBarObject.swift; sourceTree = "<group>"; };
 		EB25B5752CBA87DC0036669C /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		EB297E342DD3CB8B0098760A /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		EB3751C32D5CE85200C73925 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		EB3751C52D5CE89200C73925 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		EB3751C72D5CE8CD00C73925 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 		E9A2967F2778A0DC00FE7260 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				EB297E312DD3CA5D0098760A /* Main */,
 				EB9DCE5C2D5C87D6007478F8 /* ShapeView */,
 				EB83FA9A2CCD60F300D7C38D /* TestCustomProgressView */,
 				EB0450112CC68BD200B89C31 /* TestScrollView */,
@@ -217,7 +220,6 @@
 				EBFAEBF92D09AFAC001E575B /* TestAnimation */,
 				E9F3811D2B2883C8003B7720 /* PickerScreen */,
 				EB9E97A32DA2B74000D5E637 /* CreditCards */,
-				E9A296722778A02D00FE7260 /* MainView.swift */,
 				E9A296842778A77A00FE7260 /* TextEditView.swift */,
 				E96E6D7A2A3E1EE20020A761 /* CardsView.swift */,
 				EB4914C92CB311B700AFEE08 /* TextView.swift */,
@@ -254,10 +256,10 @@
 		E9F381202B28840A003B7720 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E9F3812A2B2888A8003B7720 /* Step.swift */,
 				EB54391D2CC6D11F0029396F /* ScrollPaginationState.swift */,
 				EB428D582CC2ED2300BCCAC4 /* BaseButtonState.swift */,
 				E9F381212B288432003B7720 /* Segment.swift */,
-				E9F3812A2B2888A8003B7720 /* Step.swift */,
 				EB9E97AC2DA2CA6B00D5E637 /* CreditCardModel.swift */,
 				E9F381302B28A77D003B7720 /* KPIndex.swift */,
 			);
@@ -323,6 +325,15 @@
 				EB249BB32CE0B8A600F3F971 /* GlobalSnackBarView.swift */,
 			);
 			path = Global;
+			sourceTree = "<group>";
+		};
+		EB297E312DD3CA5D0098760A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E9A296722778A02D00FE7260 /* MainView.swift */,
+				EB297E342DD3CB8B0098760A /* MainViewModel.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		EB3751C22D5CE83D00C73925 /* Shapes */ = {
@@ -490,7 +501,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					E9A2966C2778A02D00FE7260 = {
 						CreatedOnToolsVersion = 13.1;
@@ -551,6 +562,7 @@
 				EB04500E2CC68A2800B89C31 /* PaginationScrollView.swift in Sources */,
 				EB3751CA2D5CE8FE00C73925 /* RoundedStar.swift in Sources */,
 				EB249BBB2CE0D0FD00F3F971 /* GlobalSnackBarObject.swift in Sources */,
+				EB297E352DD3CB8F0098760A /* MainViewModel.swift in Sources */,
 				EB83FAA02CCD643800D7C38D /* CustomProgressView.swift in Sources */,
 				EB428D662CC2F03600BCCAC4 /* View+Ext.swift in Sources */,
 				EB428D592CC2ED2400BCCAC4 /* BaseButtonState.swift in Sources */,
@@ -629,6 +641,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 63455GEHLW;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -692,6 +705,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 63455GEHLW;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -721,7 +735,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Helper/Preview Content\"";
-				DEVELOPMENT_TEAM = 63455GEHLW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -740,6 +753,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -754,7 +768,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Helper/Preview Content\"";
-				DEVELOPMENT_TEAM = 63455GEHLW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -773,6 +786,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
