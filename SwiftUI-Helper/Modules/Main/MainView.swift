@@ -61,6 +61,8 @@ private extension MainView {
             TestCustomProgressView()
         case .testBaseButtonView:
             TestBaseButtonView()
+        case .fireball:
+            FireballView()
         default:
             EmptyView()
         }

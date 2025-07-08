@@ -20,6 +20,7 @@ enum Step: Identifiable {
     case pickerView
     case customProgressView
     case testBaseButtonView
+    case fireball
     
     case otherScreen
 }
@@ -46,6 +47,8 @@ extension Step {
             return "Custom ProgressView"
         case .testBaseButtonView:
             return "Base Button view"
+        case .fireball:
+            return "Fireball view"
         case .otherScreen:
             return "otherScreen"
         }
@@ -64,7 +67,8 @@ extension Step {
             .animationView,
             .shapeView,
             .textEdit,
-            .pickerView
+            .pickerView,
+            .fireball
         ]
     }
 }
